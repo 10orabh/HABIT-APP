@@ -8,7 +8,7 @@ load_dotenv()
 
 # Initialize Streamlit page with custom theme
 st.set_page_config(
-    page_title="AI Chat Assistant",
+    page_title="Misson possible",
     page_icon="🤖",
     layout="centered",
     initial_sidebar_state="collapsed"
