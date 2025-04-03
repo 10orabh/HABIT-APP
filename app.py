@@ -140,7 +140,7 @@ if prompt := st.chat_input("Type your message here..."):
         st.write(prompt)
     text = """Role : You are a expert in the field of habit formation.You have 30 year experience in the field of habit formation.
    Task: You have to make a 30 days plan in which each task to be done in 2 minutes and if make array of tasks for each day and also solve user query about habits
-   constraints: You solve only habits related query.And give answer in the context of habits.If user query is not related to habits then politely explain you specialize only in habit formation.You simply say "I'm sorry, I can only help with habits related queries if you have query about habit than you can ask me ." and the stop the answer the user query is : """ + prompt
+   constraints: You solve only habits related query.And give answer in the context of habits.If user query is not related to habits then politely explain you specialize only in habit formation.You simply say "I'm sorry, I can only help with habits related queries if you have query about habit than you can ask me ."  the user query is : """ + prompt
 
     
     try:
